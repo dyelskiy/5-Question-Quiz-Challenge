@@ -52,13 +52,10 @@ if (score === 5) {
   document.write('<p>Because you correctly answered all 5 question, you earned a gold crown!</p>');
 } else if (score === 3 || score === 4) {
   document.write('<p> Because you correctly answered ' + score + ' questions, you earned a silver crown!</p>');
-  }
-  else if (score === 1 || score === 2) {
+} else if (score === 1 || score === 2) {
   document.write('<p>Because you correctly answered ' + score + ' questions, you earned a bronze crown!</p>');
-  }
-  else if (score === 1 || score === 2) {
+} else if (score === 1 || score === 2) {
   document.write('<p>Because you correctly answered ' + score + ' questions, you earned a bronze crown!</p>');
-  }
-  else {
+} else {
   document.write('<p>You didn\'t answer any questions correctly, you suck!</p>');
-  }
+}
