@@ -43,9 +43,9 @@ if (parseInt(question4) === 10) {
 //Calculate & display the player's score
 var score = (answer1 + answer2 + answer3 + answer4 + answer5);
 if (score === 0) {
-  alert('<p>Were you even trying? You didn\'t answer any questions correctly!</p>');
+  alert('Were you even trying? You didn\'t answer any questions correctly!');
 } else {
-  alert('<p>You answered ' + score +' questions correctly</p>');
+  alert('You answered ' + score +' questions correctly');
 }
 //Assign a badge to the player
 if (score === 5) {
