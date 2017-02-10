@@ -1,4 +1,5 @@
 /*
+The Challenge:
 Ask at least five questions
 Keep track of the number of questions the user answered correctly
 Provide a final message after the quiz letting the user know the number of questions he or she got right.
